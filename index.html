@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Stuff
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="UTF-8">
+    <title>Kaycee Ingram</title>
+    <meta name="description" content="">
+    <meta name="author" content="Kaycee Ingram">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500" rel="stylesheet">
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="./css/normalize.css" rel="stylesheet">
+    <link href="./css/mobileMenu.css" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Nav-Bar -->
+    <nav class="Nav-Bar">
+      <h1 class="logo"><a href="http://kaycees-dandy-project.webflow.io/" target="_blank">Kaycee Ingram</a></h1>
+      <ul class="Nav-Bar-desktop">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#credits">Credits</a>
+      </ul>
+      <img class="mobile-menu" src="./img/menu.png" onclick="openNav()">
+    </nav>
+
+    <!-- Mobile Slide-out Menu -->
+    <div class="sidenav" id="mySidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#home" onclick="closeNav()">Home</a>
+      <a href="#about" onclick="closeNav()">About</a>
+      <a href="#contact" onclick="closeNav()">Contact</a>
+      <a href="#credits" onclick="closeNav()">Credits</a>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="home">
+      <h1>Welcome</h1>
+    </header>
+
+    <!-- About -->
+    <section class="about" id="about">
+      <h1>About</h1>
+      <p>I like long walks on the beach.</p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h1>Contact</h1>
+      <p>Call me maybe?</p>
+    </section>
+
+    <!-- Credits -->
+    <section class="credits" id="credits">
+      <h1>Credits</h1>
+      <p>Credit to <a href="https://thenounproject.com/vityavorobyev/">Viktor</a> for the clean mobile menu icon.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <h1>Coded with ❤️ by Kaycee Ingram</h1>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="./js/mobileMenu.js"></script>
+
+  </body>
+
+</html>
